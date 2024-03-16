@@ -6,7 +6,7 @@ This is the code for the back end of an e-commerce website. It utilizes JavaScri
 
 ## Installation
 
-Go to the terminal, run `npm install`, sign into mysql, run `SOURCE db/schema.sql;`, run `quit;`, next `npm run seed`, and finally `npm start`.
+Go to the terminal, run `npm install`, sign into mysql with `mysql -uroot -p` followed by your password, run `SOURCE db/schema.sql;`, then run `quit;` to leave the mysql terminal, next `npm run seed`, and finally `npm start`.
 
 ## Usage
 
